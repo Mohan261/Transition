@@ -42,7 +42,7 @@ h2{
 }
 p{
     color:#6A6C71;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .card__container{
@@ -61,13 +61,13 @@ p{
 }
 .img{
 	position:relative;
-	top:14px;
-	left:14px;
+	top:20px;
+	left:20px;
 }
 .icon__section{
 	position:absolute;
 	top:50px;
-	left:170px;
+	left:175px;
 }
 .icon{
     width:70px;
@@ -108,12 +108,11 @@ p{
     border-radius: 5px;
     width:100px;
 	position:relative;
-	bottom:-22px;
-	left:280px;
 	text-decoration:none;
 	color:#000;
 	transition:all 1s ease;
 	z-index:1;
+	background: #fff;
 	
 }
 .button::after{
@@ -130,15 +129,21 @@ p{
 	
 }
 .text__section{
-	margin-left:70px;
+	margin-left:80px;
 	margin-top:30px;
 	padding-right:10px;
-	width:300px;
+	width:280px;
 }
 .card:hover .button{
     color:#fff;
 
 }
+.btn{
+	position:absolute;
+	bottom:-22px;
+	left:280px;
+}
+	
 .card:hover .button::after{
 	width:100%;
 }
