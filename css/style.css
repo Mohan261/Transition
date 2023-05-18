@@ -43,6 +43,7 @@ h2{
 p{
     color:#6A6C71;
     font-size: 14px;
+	line-height:24px;
 }
 
 .card__container{
@@ -67,17 +68,17 @@ p{
 .icon__section{
 	position:absolute;
 	top:50px;
-	left:175px;
+	left:180px;
 }
 .icon{
-    width:70px;
-    height: 70px;
+    width:60px;
+    height: 60px;
     background-color:#E42032;
     font-family:FontAwesome;
     font-size: 28px;
     border-radius: 50%;
     text-align:center;
-    line-height: 70px;
+    line-height: 60px;
     color: white;
 	border:12px solid #FFF;
 	
@@ -131,7 +132,7 @@ p{
 .text__section{
 	margin-left:80px;
 	margin-top:30px;
-	padding-right:10px;
+	padding-right:18px;
 	width:280px;
 }
 .card:hover .button{
